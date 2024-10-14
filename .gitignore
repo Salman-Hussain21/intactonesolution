@@ -1,0 +1,19 @@
+# Ignore the entire wp-admin and wp-includes directories
+/wp-admin/
+/wp-includes/
+
+# Ignore all plugins (if you don't want to track them)
+/wp-content/plugins/
+
+# Ignore uploads (user-generated content)
+/wp-content/uploads/
+
+# Ignore themes, except the one you're working on
+/wp-content/themes/*
+!/wp-content/themes/underscore/
+
+# Ignore WordPress config file
+wp-config.php
+
+# Ignore database backups
+*.sql
